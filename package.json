@@ -1,0 +1,17 @@
+{
+  "name": "playwright-pet-project",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript functional tests — saucedemo.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3",
+    "typescript": "^6.0.3"
+  }
+}

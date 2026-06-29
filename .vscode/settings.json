@@ -1,0 +1,7 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": true,
+  "playwright.workspaceFolder": "${workspaceFolder}"
+}
